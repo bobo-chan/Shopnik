@@ -1,0 +1,716 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    background-color: white;
+    color: black;
+}
+ header {
+    display: flex;
+     justify-content: space-between;
+    width: 60%;
+    margin: 20px auto 20px auto;
+}
+ .contactWrapper {
+     display: flex;
+ }
+ .bullet {
+     padding: 0 20px 0 20px;
+ }
+ .color {
+     font-size: 10pt;
+     color: lightslategrey;
+ }
+.log {
+    display: flex;
+    justify-content: flex-end;
+}
+.separator {
+    border-left: 1px solid black;
+    height: 12px;
+}
+.splashWrapper {
+    background-color: #f6f6f6;
+}
+.splash {
+    width: 60%;
+    margin: auto;
+}
+.viewNow {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.viewNow a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+.navMeniu {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 100px 0px;
+}
+.navMeniu .nameShopnik {
+    font-weight: bold;
+}
+
+.navMeniu .nameShopnik {
+    font-size: 25px;
+}
+.nameShopnik .green {
+    color: #49c19b;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+.navMeniu .icon {
+    color: #49c19b;
+}
+.carouselWrapper {
+}
+.carousel {
+    display: flex;
+    background-color: #d2e9e3;
+    background-image: url("hiclipart.com.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain;
+    height: 400px;
+    padding: 50px 10%;
+    width: 60%;
+    margin: -50px auto 0px;
+}
+.center {
+    width: 80%;
+    margin: auto;
+}
+.carousel .carouselDescription {
+    display: inline-block;
+}
+.carouselDescription .font {
+    font-size: 50px;
+}
+.carouselDescription .padding {
+    padding-bottom: 15px;
+}
+.carouselDescription .orange {
+    color: #e6b10f;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+.link {
+    padding-bottom: 150px;
+}
+.link a {
+    color: #7485b3;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.carouselDetail  {
+    display: flex;
+    align-items: center;
+}
+.carouselDetail .uppercase {
+    text-transform: uppercase;
+}
+.carouselDetail .right {
+    margin-right: 10px;
+}
+.carouselDetail .back a {
+    color: black;
+    font-size: 12px;
+}
+.carouselDetail .next a {
+    color: grey;
+    font-size: 12px;
+}
+.furnitureWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0px auto;
+}
+.furnitureWrapper .card {
+    background-color: #f4f5f7;
+    background-image: url("poza 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 250px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    box-sizing: border-box;
+}
+.furnitureWrapper .styleLeft{
+    margin-right: 25px;
+    background-position: -5%;
+    padding: 20px 20px 20px 15%;
+}
+.furnitureWrapper .styleRight {
+    background-position: 100%;
+    padding: 20px 20px 20px 5%;
+}
+.card .cardDescription {
+    max-width: 370px;
+    margin-top: 10px;
+}
+.card .cardRight {
+    margin-right: 130px;
+}
+.cardDescription .titleDescription {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.cardDescription .textDescription {
+    color: #afafb1;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.navFurniture {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.navFurniture .navFont {
+    font-weight: 600;
+}
+.navFurniture .navFont ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.gridWrapper {
+    margin-top: 30px;
+}
+.gridWrapper .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px 15px;
+    align-items: end;
+    margin-bottom: 70px;
+}
+.grid .gridCard {
+    display: inline-block;
+    position: relative;
+}
+.grid .gridCard img {
+    width: 150px;
+    height: 200px;
+}
+.gridCard .pictureWrapper {
+    text-align: center;
+    background-color: #f4f5f7;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    position: relative;
+}
+.titleFurniture {
+    font-size: 15px;
+    color: grey;
+}
+.costFurniture {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.gridCard:hover .favourite{
+    display: flex;
+}
+.pictureWrapper .favourite {
+    position: absolute;
+    left: 7px;
+    right: 7px;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 2px solid #48c49f;
+    display: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.sale {
+    background-color: green;
+    top: -7px;
+    right: 10px;
+}
+.new {
+    background-color: red;
+    top: -7px;
+    left: 10px;
+}
+.cardLabels {
+    display: inline-block;
+    padding: 3px 10px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+
+}
+.colorpickerWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.favourite .cart {
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.favourite .favouritePadding {
+    padding: 10px 10px;
+}
+.costFurniture .strikethrough {
+    text-decoration: line-through;
+    color: gainsboro;
+    font-weight: 300;
+}
+.colorpickerWrapper .colorPicker {
+    height: 10px;
+}
+.colorPicker .square {
+    height: 100%;
+    width: 10px;
+    display: inline-block;
+}
+.gridWrapper .buttonShop {
+    margin: -40px;
+}
+.shop {
+    text-align: center;
+    margin-bottom: 250px;
+}
+.shop .buttonShop {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    display: inline-block;
+}
+.shop hr {
+    margin-bottom: -10px;
+    color: #ebebeb;
+    line-height: 1px;
+}
+.buttonShop button {
+    padding: 15px 40px;
+    border: 1px solid #47c59f;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.stylishChairWrapper {
+    padding: 70px 10% 1px 10%;
+}
+.stylishChairWrapper .sylishDescription {
+    display: flex;
+    justify-content: space-between;
+}
+.Description .sylish {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.sylishDescription img {
+    height: 500px;
+    width: 350px;
+    margin-top: -300px;
+}
+.minicardWrapper {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.minicardInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.minicard {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.minicard img {
+    height: 50px;
+    width: 40px;
+    background-color: #f4f5f7;
+    padding: 20px 30px;
+}
+.minicardCarousel {
+    display: flex;
+    justify-content: space-between;
+}
+.minicardCarousel .bestseller {
+    display: inline-block;
+}
+.minicardCarousel .backnextArrange {
+    display: inline-flex;
+}
+.costWrapper .cost1 {
+    display: inline-block;
+    color: #ec8681;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.costWrapper .cost2 {
+    display: inline-block;
+    color: #cecece;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+.minicard .borderBottom {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 30px;
+}
+.minicard .meniuStyle {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+.minicard .minicardPicture {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.minicardPicture .minicardDescription {
+    margin-left: 20px;
+}
+.minicardDescription .minicardFurniture {
+    margin-bottom: 10px;
+    color: #626262;
+}
+.minicardDescription .minicardCost {
+    font-weight: bold;
+}
+.specialGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 3fr;
+    gap: 25px 25px;
+}
+.specialGrid > * {
+    padding: 20px;
+}
+.specialWrapper {
+    margin-bottom: 100px;
+}
+.specialWrapper .arrivals {
+    background-image: url("poza 2.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    grid-column: 1 / span 2;
+    grid-row: 1 / 1;
+    background-color: #f9d9da;
+    height: 300px;
+    background-position: left 47px;
+}
+.specialGridDescription {
+    display: inline-block;
+    text-align: left;
+}
+.specialGridAlign {
+    text-align: right;
+}
+.arrivalsDescription .newArrivalsColor {
+    color: #fb6475;
+}
+.specialGrid .cardStyles {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.shopNow a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.gridPadding {
+    margin-bottom: 10px;
+}
+.commonWood {
+    font-size: 20px;
+    font-weight: bold;
+}
+.paddingTop {
+    padding-top: 50px;
+}
+.paddingRight {
+    padding-right: 40px;
+}
+.specialWrapper .featured {
+    background-image: url("poza 2.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    background-color: #daf3ed;
+    background-position: left bottom;
+}
+.featuredDescription .featuredColor {
+    color: #45c7a1;
+}
+.specialWrapper .mostPopular {
+    background-image: url("poza 2.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #e2f0df;
+    height: 300px;
+    background-position: left bottom;
+}
+.mostPopularDescription {
+    padding-right: 60px;
+}
+.mostPopularDescription .mostPopularColor {
+    color: #79bc6f;
+}
+.specialWrapper .hotColection {
+    background-image: url("poza 2.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+    background-color: #d8dbec;
+    background-position: left bottom;
+}
+.hotColectionDescription {
+    padding-right: 50px;
+}
+.hotColectionDescription .hotColectionColor {
+    color: #5962a7;
+}
+.specialWrapper .trending {
+    background-image: url("poza 2.png");
+    background-repeat: no-repeat;
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+    background-color: #ffedcd;
+    background-size: 100%;
+    background-position: 8% bottom;
+}
+.trendingDescription {
+    padding-left: 20px;
+}
+.trendingDescription .trendingColor {
+    color: #f4ae00;
+}
+.sideFurniture .cardWrapper:not(:last-child) {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 50px;
+}
+.cardWrapper {
+    display: flex;
+    padding-bottom: 50px;
+}
+.cardWrapper .cardShop {
+    flex-grow: 1;
+    width: 1%;
+}
+.cardImageWrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+.cardImage {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-color: #f4f5f7;
+}
+.items .cardShop:not(:first-of-type) {
+    margin-left: 30px;
+}
+.cardWrapper .items {
+    display: flex;
+    flex-grow: 3;
+    width: 1%;
+    margin-left: 30px;
+}
+.cardShop img {
+    max-width: 100%;
+}
+.cardHeading {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.cardShop .cardHeadingDescription {
+    font-size: 15px;
+    color: #b5b5b5;
+    padding-bottom: 50px;
+}
+.cardWrapper .items {
+    position: relative;
+}
+.items .arrow {
+    position: absolute;
+    top: 123px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #979a9f;
+    padding: 12px 10px;
+    z-index: 1;
+    color:white;
+}
+.items .left {
+    left: 0;
+}
+.items .right {
+    right: 0;
+}
+.instagram {
+    position: relative;
+    margin-bottom: 100px;
+}
+.instagramDescription {
+    display: flex;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.instagramDescription .instagramPicture {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.instagramDescription .instagramPicture img {
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 300%;
+    max-width: 300%;
+}
+.instagram .instagramButton {
+    font-size: 35px;
+    padding: 25px 150px;
+    border-radius: 10px;
+    border: none;
+    color: #93969b;
+    font-weight: bold;
+    background-color: #ffffff99;
+}
+.instagramButtonWrapper {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.logoWrapper {
+    display: flex;
+    margin-bottom: 70px;
+}
+.logoWrapper .logoDescription {
+    flex-grow: 1;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoWrapper .logoDescription img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.logoWrapper .logoDescription:not(:last-child) {
+    margin-right: 30px;
+}
+.contactFooter {
+    background-color: #48c4a0;
+    color: white;
+    padding: 100px 10% 100px 10%;
+    position: relative;
+    bottom: -100px;
+}
+.contactFooterDescription {
+    display: flex;
+}
+.contactFooterDescription .shopnikFooter {
+    flex-grow: 1;
+    width: 1%;
+}
+.contactFooterDescription .shopnikFooter:not(:last-child) {
+    margin-right: 30px;
+}
+.shopnikFooter .borderFooter {
+    border-bottom: 1px solid white;
+    width: 50px;
+    white-space: nowrap;
+}
+.shopnikFooter .marginFooter {
+    margin-bottom: 20px;
+}
+.shopnikFooter .borderContact {
+    margin-bottom: 30px;
+}
+.shopnikFooter .pictureFooter {
+    display: inline-block;
+    height: 45px;
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.shopnikFooter .pictureFooter img {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.shopnikFooter .shopnikLorem {
+    font-size: 20px;
+}
+.shopnikFooter .descriptionUsefulLinks {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.pictureFooterWrapper .pictureFooterDescription {
+    display: inline-block;
+}
+.pictureFooterWrapper {
+    margin-bottom: 10px;
+}
+.shopnik {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.phoneContact:not(:last-child) {
+    margin-bottom: 20px;
+}
+.phoneContact .iconContact {
+    margin-right: 10px;
+}
+.phoneContact .iconsMedia:not(:last-child) {
+    margin-right: 15px;
+}
+.pictureFooterDescription .furnitureDescription {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.pictureFooterDescription .dateFooter {
+    font-size:10px;
+}
+.copyright {
+    background-color: #f6f6f6;
+}
+.copyrightLast {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
