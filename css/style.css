@@ -716,9 +716,9 @@ nav ul li a {
 }
 @media only screen and (max-width: 450px) {
     header {
-        width: 100%;
         padding: 10px;
         display: block;
+        box-sizing: border-box;
     }
 
     header .bullet {
@@ -751,5 +751,233 @@ nav ul li a {
         display: block;
         font-size: 14pt;
         margin-bottom: 10px;
+    }
+    .carouselDescription .font {
+        font-size: 20px;
+        display: inline-block;
+    }
+    .carouselDescription .orange {
+        font-size: 18px;
+        padding-bottom: 20px;
+        display: block;
+        width: 65%;
+    }
+    .carousel {
+        height: 200px;
+        width: 80%;
+        background-position: 112%;
+        padding: 20px 5%;
+    }
+    .carousel .link {
+        padding-bottom: 20px;
+    }
+    .furnitureWrapper {
+        display: block;
+    }
+    .furnitureWrapper .styleLeft {
+        margin-right: 0;
+    }
+    .center {
+        width: 90%;
+    }
+    .furnitureWrapper .card {
+        margin-bottom: 10px;
+    }
+    .navFurniture {
+        display: inline-block;
+        margin-top: 0;
+    }
+   .navFurniture .navFont ul li {
+       display: block;
+       font-size: 20px;
+       margin-bottom: 10px;
+   }
+   .splash {
+       width: 80%;
+   }
+   .gridWrapper .grid {
+       display: inline-block;
+       text-align: center;
+       margin-top: 20px;
+   }
+   .grid .gridCard {
+       margin-bottom: 10px;
+       width: 100%;
+   }
+   .gridCard .colorpickerWrapper {
+       display: inline-block;
+   }
+   .colorpickerWrapper .costFurniture {
+       display: inline-block;
+   }
+   .colorpickerWrapper .colorPicker {
+       display: block;
+   }
+   .gridCard .titleFurniture {
+       font-size: 20px;
+   }
+   .gridCard .costFurniture {
+       font-size: 15px;
+   }
+    .stylishChairWrapper {
+       padding: 50px 10% 1px 10%
+    }
+    .stylishChairWrapper .sylishDescription {
+       display: block;
+   }
+    .sylishDescription img {
+        display: block;
+       height: 300px;
+       width:200px;
+        margin-top: 0;
+   }
+    .sylishDescription .description {
+       display: block;
+        text-align: center;
+    }
+    .gridWrapper .shop {
+        margin-bottom: 100px;
+    }
+    .Description {
+        text-align: center;
+    }
+    .Description .sylish {
+        font-size: 35px;
+    }
+    .minicardInfo {
+        display: block;
+    }
+    .minicardInfo .minicard {
+        margin-bottom: 68px;
+    }
+    .minicardDescription .minicardFurniture {
+        font-size: 16px;
+    }
+    .specialGrid {
+        display: block;
+    }
+    .specialGridDescription {
+        display: block;
+    }
+    .specialWrapper .arrivals {
+        background-position: center bottom;
+    }
+    .paddingTop {
+        padding-top: 20px;
+    }
+    .specialGridDescription {
+        text-align: center;
+    }
+    .specialGridAlign {
+        margin-bottom: 10px;
+    }
+    .specialWrapper .featured {
+        background-size: 28%;
+    }
+    .specialWrapper .mostPopular {
+        background-position: center bottom;
+    }
+    .specialWrapper .hotColection {
+        height: 200px;
+        background-position: center bottom;
+        background-size: 26%;
+    }
+    .specialWrapper .trending {
+        height: 200px;
+        background-position: center bottom;
+        background-size: 26%;
+    }
+    .trendingDescription {
+        padding-left: 0;
+        text-align: center;
+    }
+    .hotColectionDescription {
+        padding-right: 0;
+    }
+    .mostPopularDescription {
+        padding-right: 0;
+    }
+    .paddingRight {
+        padding-right: 0;
+    }
+    .cardWrapper {
+        display: block;
+    }
+    .cardWrapper .cardShop {
+        display: block;
+        width: 300px;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 40px;
+    }
+    .cardWrapper .items {
+        display: block;
+        margin-left: 0;
+        width: initial;
+    }
+    .items .arrow {
+        position: initial;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        width: 300px;
+    }
+    .items .cardShop:not(:first-of-type) {
+        margin-left: 0;
+    }
+    .cardImage {
+        height:350px;
+    }
+    .titleFurniture {
+        font-size: 20px;
+    }
+    .costFurniture {
+        margin-top: 0;
+    }
+    .colorpickerWrapper {
+        display: block;
+    }
+    .cardShop .cardHeadingDescription {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .shopNow a {
+        font-size: 16px;
+    }
+    .instagram {
+        margin-bottom: 50px;
+    }
+    .instagram .instagramButton {
+        padding: 26px 40px;
+    }
+    .instagramDescription {
+        margin-top: 30px;
+    }
+    .instagramDescription .instagramPicture:nth-child(2n+1) {
+        display: none;
+    }
+    .logoWrapper {
+        display: block;
+        text-align: center;
+    }
+    .logoWrapper .logoDescription {
+        display: inline-block;
+        margin: 10px 50px 10px 30px;
+    }
+    .logoWrapper .logoDescription:not(:last-child) {
+        margin-right: 0;
+    }
+    .logoWrapper .logoDescription:last-child {
+        margin-left: 30px;
+    }
+    .contactFooterDescription {
+        display: block;
+    }
+    .contactFooterDescription .shopnikFooter {
+        width: 100%;
+        display: block;
+    }
+    .contactFooterDescription .shopnikFooter:not(:last-child) {
+        margin-bottom: 30px;
     }
 }
